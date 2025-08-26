@@ -1,0 +1,38 @@
+body{
+    background-color: blueviolet;
+    text-align: center;
+    height: auto;
+}
+
+h1{
+    color: black;
+    text-align: center;
+}
+
+h2{
+    color: bisque;
+    text-align: center;
+}
+h3{
+    color: beige;
+    text-align: center;
+}
+
+#id-apple{
+    color: red;
+}
+#id-mango{
+    color: yellow;
+}
+#id-blue{
+    color: blue;
+}
+.tomato{
+    color: rgb(228, 3, 3);
+}
+.cabbage{
+    color: lightseagreen;
+}
+.cucumber{
+    color: darkgreen;
+}

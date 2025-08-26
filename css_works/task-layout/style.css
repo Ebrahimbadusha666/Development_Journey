@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 10px;
+    background: rgb(255, 255, 255);
+}
+
+.resume-container {
+    display: flex;
+    max-width: 900px;
+    margin: 0 auto;
+    background: white;
+    border: 2px solid #000000;
+    box-shadow: 10px 10px 10px rgb(29, 47, 20);
+    border-radius: 10px;
+}
+
+.left-column {
+    width: 35%;
+    background: #62c1c8;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.right-column {
+    width: 65%;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;    
+}
+
+.profile-pic img {
+    width: 100%;
+    border-radius: 50%;
+    background-color: #0B1C36;
+    border: 5px solid #0B1C36;
+}
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 5px;
+}
+
+h4 {
+    background: #0B1C36;
+    /* font-size: 18px; */
+    /* border-bottom: 2px solid #000; */
+    padding: 10px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.header {
+    background: #0B1C36;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.header p {
+    margin: 0;
+    font-size: 16px;
+}
+
+.section {
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.skills-section ul {
+    /* list-style: none; */
+    padding: 10px;
+}
+
+.skills-section ul li {
+    padding: 5px 0;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+.section ul li{
+    padding: 10px 0;
+}

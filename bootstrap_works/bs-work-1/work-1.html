@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopify</title>
+    <!-- custom css -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- bootstrap cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <!-- bs js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- nav section start -->      
+    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Shopify</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Shop
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">All Products</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Popular Product</a></li>
+
+                            <li><a class="dropdown-item" href="#">New Arrivals</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">My orders</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <button class="btn btn-outline-dark" type="submit"><i class="fa-solid fa-cart-shopping"></i>Cart
+                        <span class="badge text-bg-dark rounded-circle">0</span>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- nav section end -->
+
+    <!-- banner section start -->
+    <div class="container-fluid bg-dark p-4 ">
+        <h1 class="text-white text-center fw-bold">Shopify</h1>
+        <p class="text-secondary text-center">Shop with ur mindset</p>
+
+    </div>
+    <!-- banner section end -->
+
+    <!-- product section start -->
+    <div class="container d-flex justify-content-around my-4">
+
+        <!-- card-1 -->
+        <div class="card" style="width: 20%;">
+            <img src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" class="card-img-top" alt="...">
+            <div class="card-body text-center">
+                <h5 class="card-title text-center fw-bold">Sale item</h5>
+                <p class="card-text"><strike>$50.00</strike> $25.00</p>
+                <a href="#" class="btn btn-outline-dark">Add to cart</a>
+            </div>
+        </div>
+        <!-- end card1 -->
+
+        <!-- card-2 -->
+        <div class="card " style="width: 20%;">
+
+            <img src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" class="card-img-top posistion-relative "
+                alt="...">
+            <div class="position-absolute top-0 end-0 bg-dark rounded text-white p-1 mt-2 "> sale</div>
+            <div class="card-body text-center">
+                <h5 class="card-title text-center fw-bold">Fancy Product</h5>
+                <p class="card-text">$120.00 - $280.000</p>
+                <a href="#" class="btn btn-outline-dark position-relative">View Option
+                    <div class="position-absolute bottom-0 start-50 translate-middle-x"> </div>
+                </a>
+            </div>
+        </div>
+        <!-- end card2 -->
+
+        <!-- card-3 -->
+        <div class="card" style="width: 20%;">
+            <img src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" class="card-img-top posistion-relative"
+                alt="...">
+            <div class="position-absolute top-0 end-0 bg-dark rounded text-white p-1 mt-2 "> sale</div>
+            <div class="card-body text-center">
+                <h5 class="card-title text-center fw-bold">Special Item</h5>
+                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+
+                <p class="card-text"><s>$20.00</s> $18.00</p>
+                <a href="#" class="btn btn-outline-dark">Add to cart</a>
+            </div>
+        </div>
+        <!-- end card3 -->
+
+        <!-- card-4 -->
+        <div class="card" style="width: 20%;">
+            <img src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" class="card-img-top" alt="...">
+            <div class="card-body text-center">
+                <h5 class="card-title text-center fw-bold">Popular Product</h5>
+                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                <p class="card-text">$40.00</p>
+                <a href="#" class="btn btn-outline-dark">Add to cart</a>
+            </div>
+        </div>
+        <!-- end card4 -->
+
+    </div>
+    <div class="container d-flex justify-content-around my4 ">
+
+        <!-- card-5 -->
+        <div class="card" style="width: 20%;">
+            <img src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" class="card-img-top" alt="...">
+            <div class="card-body text-center">
+                <h5 class="card-title text-center fw-bold">Fancy Items</h5>
+                <p class="card-text">$120.00 - $180.00</p>
+                <a href="#" class="btn btn-outline-dark">Veiw Options</a>
+            </div>
+        </div>
+        <!-- end card5 -->
+
+        <!-- card-6 -->
+        <div class="card" style="width: 20%;">
+            <img src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" class="card-img-top" alt="...">
+            <div class="card-body text-center">
+                <h5 class="card-title text-center fw-bold">Special Sale</h5>
+                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                <p class="card-text"><s>$120.00</s> $60.00</p>
+                <a href="#" class="btn btn-outline-dark">Add to cart</a>
+            </div>
+        </div>
+        <!-- end card6 -->
+
+        <!-- card-7 -->
+        <div class="card" style="width: 20%;">
+            <img src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" class="card-img-top posistion-relative"
+                alt="...">
+            <div class="position-absolute top-0 end-0 bg-dark rounded text-white p-1 mt-2 "> sale</div>
+            <div class="card-body  text-center">
+                <h5 class="card-title text-center fw-bold">Popular Items</h5>
+                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                <p class="card-text"><s>$180.000</s> $90.00</p>
+                <a href="#" class="btn btn-outline-dark">Add to cart</a>
+            </div>
+        </div>
+        <!-- end card7 -->
+
+        <!-- card-8 -->
+        <div class="card" style="width: 20%;">
+            <img src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" class="card-img-top posistion-relative" alt="...">
+            <div class="position-absolute top-0 end-0 bg-dark rounded text-white p-1 mt-2 "> sale</div>
+            <div class="card-body text-center">
+                <h5 class="card-title text-center fw-bold">Sale Item</h5>
+                <p class="card-text">$140.00 - $200.00</p>
+                <a href="#" class="btn btn-outline-dark">View Option</a>
+            </div>
+        </div>
+        <!-- end card8 -->
+
+    </div>
+    <!-- product section end -->
+
+    <!-- footer section -->
+
+    <div class="container-fluid bg-dark p-4 d-flex justify-content-center align-items-center ">
+        <span class="text-white text-center">Copyright<i class="fa-light fa-copyright"></i> Your Website 2023</span>
+
+    </div>
+
+    <!-- end footer section -->
+
+</body>
+
+</html>

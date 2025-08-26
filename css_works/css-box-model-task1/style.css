@@ -1,0 +1,39 @@
+.container{
+    width: 50%;
+    height: 350px;
+    background-color: aqua;
+    border: black 2px solid;
+    border-radius: 3px;
+    padding: 10px;
+}
+.item{
+    width: 25%;
+    height: 100px;
+    background-color: blueviolet;
+    border: whitesmoke 2px solid;
+    border-radius: 3px;
+}
+.item:nth-child(1){
+    margin-left: auto;
+}
+.item:nth-child(2){
+    margin-left: auto;
+    margin-right: auto;
+}
+.container:nth-child(1){
+    margin-left: auto;
+    margin-right: auto;
+}
+.container:nth-child(2){
+    margin-top: 5px;
+}
+.news{
+    width: 50%;
+    height: 100px;
+    background-color: rgb(3, 36, 66);
+    color: rgb(255, 250, 250);
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}

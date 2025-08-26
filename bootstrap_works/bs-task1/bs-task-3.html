@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Card Layout</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #ccc; /* Light gray background */
+    }
+
+    .card-container {
+      background-color: #183d5d; /* Dark blue card background */
+      border-radius: 15px;
+      padding: 40px 20px;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      margin: 50px auto;
+      width: fit-content;
+    }
+
+    .item-card {
+      position: relative;
+      width: 150px;
+      height: 200px;
+      background-color: #0a3b0a; /* Dark green */
+      border-radius: 15px;
+      text-align: center;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid #ccc;
+    }
+
+    .item-card::before {
+      content: "";
+      position: absolute;
+      top: -35px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 70px;
+      height: 70px;
+      background-color: #0a3b0a;
+      border-radius: 50%;
+      border: 1px solid #ccc;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card-container">
+    <div class="item-card">item</div>
+    <div class="item-card">item</div>
+    <div class="item-card">item</div>
+  </div>
+
+</body>
+</html>

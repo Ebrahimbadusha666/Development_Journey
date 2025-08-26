@@ -1,0 +1,1 @@
+print(" Hi, I am Ebrahim Badusha from Idukki")
