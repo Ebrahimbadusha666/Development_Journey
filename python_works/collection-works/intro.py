@@ -3,9 +3,11 @@ collections used for storing and organizing many values (objects) in one place i
 
 collections :
 
-    list
-    tuple
-    set
-    dictionary
+                list
+                tuple
+                set
+                dictionary
 
 """
+
+# dir(class_name) # methods 
