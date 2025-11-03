@@ -1,13 +1,19 @@
 
 """
 ObjectOrientedProgramming
+OOP is a programming paradiagram (style of coding) that allows us to bring real-world entities in to programming by using classes and objects.
+
+class: plan, blueprint, design, pattern, template
+object: (realword entity) 
+
 
 
 class: plan,design pattern,blue print
 
 object:realworld entity
 
-"""
+"""     
+
 
 
 
